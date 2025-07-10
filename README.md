@@ -20,16 +20,18 @@ Lucky 9 is a fully interactive, terminal-based card game written in Java. It's i
 
 ## 📁 Project Structure
 
-project/Lucky9/
-├── Card.java               → Represents a single card (suit, rank, value)
-├── Deck.java               → Manages the deck and shuffling
-├── Player.java             → Player structure and hand logic
-├── Dealer.java             → Inherits Player, handles cash flow and rankings
-├── LeaderBoard.java        → Displays ranked dealer earnings
-├── PlayerController.java   → Game rules and card value computations
-├── GameManager.java        → Controls game flow, bets, and player interactions
-└── Test.java               → Entry point for the game loop
+   ```bash
+   project/Lucky9/
+   ├── Card.java               → Represents a single card (suit, rank, value)
+   ├── Deck.java               → Manages the deck and shuffling
+   ├── Player.java             → Player structure and hand logic
+   ├── Dealer.java             → Inherits Player, handles cash flow and rankings
+   ├── LeaderBoard.java        → Displays ranked dealer earnings
+   ├── PlayerController.java   → Game rules and card value computations
+   ├── GameManager.java        → Controls game flow, bets, and player interactions
+   └── Test.java               → Entry point for the game loop
 
+   ```
 
 ## 🚀 How to Run
 
